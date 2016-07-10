@@ -8,11 +8,11 @@ class Generator extends generators.Base {
   get default() {
     return {
       output: function() {
-        this.log('Let\'s BBQ');
+        this.log('Let\'s hava a beer!');
       }
     }
   }
-  
+
 }
 
 module.exports = Generator;

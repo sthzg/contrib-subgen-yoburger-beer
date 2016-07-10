@@ -1,8 +1,8 @@
 {
-  "name": "contrib-subgen-yoburger-bbq",
-  "version": "0.0.3",
+  "name": "contrib-subgen-yoburger-beer",
+  "version": "0.0.1",
   "description": "Reference Implementation for a generator-subgenext Subgen",
-  "main": "./generators/bbq/index.js",
+  "main": "./generators/beer/index.js",
   "scripts": {
     "release:major": "npm version major && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
@@ -17,6 +17,6 @@
     "generator-yoburger": ">0.0.0"
   },
   "files": [
-    "generators/bbq"
+    "generators/beer"
   ]
 }
